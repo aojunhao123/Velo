@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:veloui": "gulp -f packages/components/script/build/index.ts"
+    "build:veloui": "gulp -f packages/components/script/build/index.ts",
+    "publish:veloui": "gulp -f packages/components/script/publish/index.ts"
   },
   "keywords": [],
   "author": "",
