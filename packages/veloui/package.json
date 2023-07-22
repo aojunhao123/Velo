@@ -1,0 +1,21 @@
+{
+  "name": "veloui",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "ve/index.mjs",
+  "files": [
+    "ve",
+    "lib"
+  ],
+  "keywords": [
+    "veloui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "秃头披风侠",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
+}

@@ -1,0 +1,4 @@
+# 将packages目录下的包全部关联
+packages:
+  - "packages/**"
+  - "play"
