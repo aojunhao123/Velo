@@ -7,6 +7,7 @@
 
 <script setup lang='ts'>
 import { computed, defineProps } from 'vue'
+import './style.scss'
 // 为组件设置名称
 defineOptions({ name: "ve-button" })
 // 定义组件的props
@@ -73,6 +74,6 @@ const handleClick = (e: Event) => {
 }
 </script>
 
-<style lang="scss" scoped>
+<!-- <style lang="scss" scoped>
 @import './style.scss'
-</style>
+</style> -->

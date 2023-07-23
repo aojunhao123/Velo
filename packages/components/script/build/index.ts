@@ -14,7 +14,7 @@ export const removeDist = () => {
 
 //打包样式
 export const buildStyle = () => {
-  return src(`${componentPath}/src/**/**.scss`)
+  return src(`${componentPath}/src/**/style/**.scss`)
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(dest(`${pkgPath}/veloui/lib/src`))
