@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang='ts'>
-import { computed, defineProps } from 'vue'
-import './style.scss'
+import { computed } from 'vue'
+import './style/style.scss'
 // 为组件设置名称
 defineOptions({ name: "ve-button" })
 // 定义组件的props
