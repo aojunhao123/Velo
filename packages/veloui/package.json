@@ -2,9 +2,9 @@
   "name": "ajh-veloui",
   "version": "1.0.3",
   "main": "lib/index.js",
-  "module": "ve/index.mjs",
+  "module": "es/index.mjs",
   "files": [
-    "ve",
+    "es",
     "lib"
   ],
   "keywords": [
