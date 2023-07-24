@@ -1,5 +1,5 @@
 import { defineComponent as a, computed as r, openBlock as n, createElementBlock as o, normalizeClass as u, unref as c, createCommentVNode as f, renderSlot as p } from "vue";
-import "./style.css";
+import "./style/style.css";
 const m = {
   key: 0,
   class: "mask"
