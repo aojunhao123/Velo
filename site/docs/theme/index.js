@@ -1,5 +1,5 @@
 import DefaultTheme from "vitepress/theme";
-import veloui from 'ajh-veloui'
+import veloui from "ajh-veloui"
 export default {
     ...DefaultTheme,
     enhanceApp: async ({ app }) => {

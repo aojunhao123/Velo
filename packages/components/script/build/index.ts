@@ -18,7 +18,7 @@ export const buildStyle = () => {
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(dest(`${pkgPath}/veloui/lib/src`))
-    .pipe(dest(`${pkgPath}/veloui/velo/src`));
+    .pipe(dest(`${pkgPath}/veloui/es/src`));
 };
 
 //打包组件

@@ -74,6 +74,3 @@ const handleClick = (e: Event) => {
 }
 </script>
 
-<!-- <style lang="scss" scoped>
-@import './style.scss'
-</style> -->
