@@ -1,4 +1,6 @@
 export default {
+    title: 'Velo',
+    base: process.env.NODE_ENV === 'production' ? '/velo/' : '/',
     themeConfig: {
         // 名字
         siteTitle: "Velo",

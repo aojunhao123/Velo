@@ -16,6 +16,7 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
+    "@velo/components": "workspace:^",
     "ajh-veloui": "workspace:^"
   }
 }

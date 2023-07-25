@@ -1,1 +1,1 @@
-<ve-button>button</ve-button>
+<ve-button type="primary">普通按钮</ve-button>
