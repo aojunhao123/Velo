@@ -62,8 +62,6 @@ importers:
 
   packages/components: {}
 
-  packages/utils: {}
-
   packages/veloui: {}
 
   play:
@@ -81,6 +79,9 @@ importers:
 
   site:
     dependencies:
+      '@velo/components':
+        specifier: workspace:^
+        version: link:../packages/components
       ajh-veloui:
         specifier: workspace:^
         version: link:../packages/veloui
