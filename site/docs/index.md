@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guild/introduce
+      link: /guide/introduce
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/qddidi/easyest
+      link: https://github.com/aojunhao123/Vue3-TS-UI
 
 features:
   - icon: 💡

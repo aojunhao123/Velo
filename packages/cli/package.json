@@ -1,0 +1,21 @@
+{
+  "name": "create-velo-app",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "download-git-repo": "^3.0.2",
+    "ora": "^6.3.1",
+    "prompts": "^2.4.2"
+  }
+}
