@@ -1,6 +1,6 @@
-import _Button from "./button.vue";
+import _Button from './button.vue';
 // 导入 App 和 Plugin 类型。App 类型代表 Vue 应用实例，Plugin 类型用于声明插件对象。
-import type { App, Plugin } from "vue";
+import type { App, Plugin } from 'vue';
 // 定义交叉类型
 type SFCWithInstall<T> = T & Plugin;
 

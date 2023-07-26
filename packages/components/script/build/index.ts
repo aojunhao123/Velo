@@ -1,11 +1,11 @@
-import delPath from "../utils/delpath";
-import { series, parallel, src, dest } from "gulp";
-import { pkgPath, componentPath } from "../utils/paths";
-import glupSass from "gulp-sass";
-import sassLang from "sass";
+import delPath from '../utils/delpath';
+import { series, parallel, src, dest } from 'gulp';
+import { pkgPath, componentPath } from '../utils/paths';
+import glupSass from 'gulp-sass';
+import sassLang from 'sass';
 const sass = glupSass(sassLang);
-import autoprefixer from "gulp-autoprefixer";
-import run from "../utils/run";
+import autoprefixer from 'gulp-autoprefixer';
+import run from '../utils/run';
 
 //每次打包之前删除上一次打包的dist
 export const removeDist = () => {
@@ -23,7 +23,7 @@ export const buildStyle = () => {
 
 //打包组件
 export const buildComponent = async () => {
-  run("pnpm run build", componentPath);
+  run('pnpm run build', componentPath);
 };
 
 export default series(
