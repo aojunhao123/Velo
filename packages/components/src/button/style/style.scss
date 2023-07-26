@@ -15,7 +15,7 @@ $danger-active-color: #f78989;
 .ve-button {
   display: inline-block;
   position: relative;
-  font-family: "PingFang SC", "Microsoft Yahei", sans-serif;
+  font-family: 'PingFang SC', 'Microsoft Yahei', sans-serif;
   line-height: 1;
   cursor: pointer;
   background-color: $normal-color;
@@ -233,7 +233,7 @@ $danger-active-color: #f78989;
 }
 
 // 按钮文字与图标间有间距
-.ve-button [class*="icon"] + span {
+.ve-button [class*='icon'] + span {
   margin-left: 5px;
 }
 
