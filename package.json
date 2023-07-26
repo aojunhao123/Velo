@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:veloui": "gulp -f packages/components/script/build/index.ts",
-    "publish:veloui": "gulp -f packages/components/script/publish/index.ts"
+    "build:velo": "gulp -f packages/components/script/build/index.ts",
+    "publish:velo": "gulp -f packages/components/script/publish/index.ts",
+    "docs:dev": "pnpm run --filter site docs:dev",
+    "docs:build": "pnpm run --filter site docs:build",
+    "docs:preview": "pnpm run --filter site docs:preview",
+    "velo:dev": "pnpm run --filter play dev"
   },
   "keywords": [],
   "author": "",

@@ -2,6 +2,7 @@
   "name": "create-velo-app",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +18,9 @@
     "download-git-repo": "^3.0.2",
     "ora": "^6.3.1",
     "prompts": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aojunhao123/velo-cli.git"
   }
 }

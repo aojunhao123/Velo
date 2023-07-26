@@ -60,7 +60,7 @@ const options = commandLineArgs(optionDefinitions);
 // 要拉取的模板的远程仓库地址
 const remoteList = {
     1: 'https://gitee.com/geeksdidi/kittyui.git',
-    2: 'https://github.com/aojunhao123/Velo'
+    2: 'https://github.com/aojunhao123/Velo.git'
 };
 const getUserInfo = async () => {
     const res = await prompts(promptsOptions);
