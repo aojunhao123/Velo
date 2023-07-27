@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,U as t}from"./chunks/framework.0b960767.js";const m=JSON.parse('{"title":"组件打包与发布","description":"","frontmatter":{},"headers":[],"relativePath":"develop/build.md","filePath":"develop/build.md"}'),c={name:"develop/build.md"},r=t("",8),d=[r];function l(n,i,s,p,_,u){return o(),a("div",null,d)}const b=e(c,[["render",l]]);export{m as __pageData,b as default};

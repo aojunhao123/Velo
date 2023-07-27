@@ -1,0 +1,6 @@
+import{_ as a,c as e,o as s,U as n}from"./chunks/framework.0b960767.js";const h=JSON.parse('{"title":"目录结构","description":"","frontmatter":{},"headers":[],"relativePath":"develop/index.md","filePath":"develop/index.md"}'),o={name:"develop/index.md"},t=n(`<h1 id="目录结构" tabindex="-1">目录结构 <a class="header-anchor" href="#目录结构" aria-label="Permalink to &quot;目录结构&quot;">​</a></h1><br><br><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">-- packages</span></span>
+<span class="line"><span style="color:#A6ACCD;">    -- cli 脚手架(create-velo-app)</span></span>
+<span class="line"><span style="color:#A6ACCD;">    --component 组件库本地开发(@velo/component)</span></span>
+<span class="line"><span style="color:#A6ACCD;">    --veloui 组件库打包后的文件(即要发布的组件库)</span></span>
+<span class="line"><span style="color:#A6ACCD;">-- play 组件库本地调试</span></span>
+<span class="line"><span style="color:#A6ACCD;">-- site 组件库文档站点</span></span></code></pre></div>`,4),l=[t];function p(c,i,r,d,_,C){return s(),e("div",null,l)}const m=a(o,[["render",p]]);export{h as __pageData,m as default};
