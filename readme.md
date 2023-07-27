@@ -31,13 +31,13 @@ pnpm install
 - 打包组件库与工具库
 
 ```
-pnpm run build:easyest
+pnpm run build:velo
 ```
 
 - 启动测试项目
 
 ```
-pnpm run easyest:dev
+pnpm run velo:dev
 ```
 
 - 启动静态文档站点
