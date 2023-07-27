@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,vue}": [
+      "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
+      "stylelint --fix \"packages/components/src/**/*.{css,scss}\""
+    ]
+  },
   "scripts": {
     "build:velo": "gulp -f packages/components/script/build/index.ts",
     "publish:velo": "gulp -f packages/components/script/publish/index.ts",
@@ -11,12 +18,16 @@
     "docs:preview": "pnpm run --filter site docs:preview",
     "velo:dev": "pnpm run --filter play dev",
     "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
-    "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,scss}\""
+    "lint:style": "stylelint --fix \"packages/components/src/**/*.{css,scss}\"",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "@types/gulp": "^4.0.13",
     "@types/gulp-autoprefixer": "^0.0.34",
     "@types/gulp-sass": "^5.0.1",
@@ -36,6 +47,7 @@
     "gulp-sass": "^5.1.0",
     "happy-dom": "^10.5.2",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "postcss-html": "^1.5.0",
     "prettier": "^3.0.0",
     "release-it": "^16.1.3",
