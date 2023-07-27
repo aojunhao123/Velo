@@ -6,22 +6,21 @@ export default {
         siteTitle: "Velo",
         // 导航栏
         nav: [
-            { text: "指南", link: "/guide/" },
-            { text: "组件", link: "/components/button/" },
+            { text: "文档", link: "/guide/introduce" },
         ],
         socialLinks: [
-            { icon: "github", link: "https://github.com/qddidi/easyest" },
+            { icon: "github", link: "https://github.com/aojunhao123/Velo" },
         ],
         // 侧边栏
         sidebar: {
             // 指南
-            "/guide/": [
+            "/": [
                 {
-                    text: "基础",
+                    text: "引入",
                     items: [
                         {
-                            text: "安装",
-                            link: "/guide/installation",
+                            text: "介绍",
+                            link: "/guide/introduce",
                         },
                         {
                             text: "快速开始",
@@ -30,11 +29,23 @@ export default {
                     ],
                 },
                 {
-                    text: "进阶",
+                    text: "开发指南",
                     items: [
                         {
-                            text: "xx",
-                            link: "/xx",
+                            text: "目录结构",
+                            link: "/develop/",
+                        },
+                        {
+                            text: "组件开发",
+                            link: "/develop/component",
+                        },
+                        {
+                            text: "全局组件",
+                            link: "/develop/global",
+                        },
+                        {
+                            text: "打包发布",
+                            link: "/develop/build",
                         },
                     ],
                 },
