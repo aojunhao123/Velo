@@ -110,7 +110,7 @@ const handleClick = (e: Event) => {
 
 ```js
 import _Button from "./button.vue";
-import { withInstall } from "@easyest/utils";
+import { withInstall } from "@velo/utils";
 export const Button = withInstall(_Button);
 export default Button;
 ```
